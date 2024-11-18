@@ -7,7 +7,7 @@ This is a project of computing the average value of each collected brain sample 
 ## Installation
 
 ```bash
-pip install git+git://github.com/Songzx07/sagittal_average.git
+pip install git+git://github.com/Songzx07/sagittal_average
 ```
 
 ## Usage
