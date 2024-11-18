@@ -12,3 +12,6 @@ dependencies = ["numpy ~= 1.26.4"]
 packages = [
   "src/sagittal_average",
 ]
+
+[project.scripts]
+ segittal_average = "segittal_average.command:process"
