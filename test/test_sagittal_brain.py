@@ -1,3 +1,4 @@
+import pytest
 import numpy as np
 from sagittal_average import run_averages
 
@@ -11,4 +12,7 @@ expected_output[-1] = 1
 run_averages(file_input="brain_sample.csv", file_output="brain_average.csv")
 
 real_output = np.genfromtxt("brain_average.csv", delimiter=",")
-np.testing.assert_array_equal(real_output, expected_output)
+
+
+def test_equality():
+    np.testing.assert_array_equal(real_output, expected_output)
