@@ -6,3 +6,4 @@ sagittal_average.egg-info/SOURCES.txt
 sagittal_average.egg-info/dependency_links.txt
 sagittal_average.egg-info/requires.txt
 sagittal_average.egg-info/top_level.txt
+test/test_sagittal_brain.py
