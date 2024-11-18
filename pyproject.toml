@@ -7,3 +7,8 @@ name = "sagittal_average"
 version = "0.0.1"
 requires-python = ">=3.10"
 dependencies = ["numpy ~= 1.26.4"]
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "src/sagittal_average",
+]
