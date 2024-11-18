@@ -14,4 +14,4 @@ packages = [
 ]
 
 [project.scripts]
- segittal_average = "segittal_average.command:process"
+ sagittal_average_run = "sagittal_average.command:process"
